@@ -20,7 +20,7 @@ namespace Доход_по_вкладу
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button1_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -67,7 +67,7 @@ namespace Доход_по_вкладу
             }
         }
 
-        private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox1_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar >= '0' && e.KeyChar <= '9') || (e.KeyChar == (char)Keys.Back))
                 return;
